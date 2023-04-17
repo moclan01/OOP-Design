@@ -10,7 +10,7 @@ public class MinMaxLengthValidation implements Validation {
     }
 
     public boolean minMaxLengthValidation(String data) {
-        if (data.length() <= minLength && data.length() >= maxLength)
+        if (data.length() >= minLength && data.length() <= maxLength)
             return true;
         return false;
     }

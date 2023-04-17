@@ -11,7 +11,7 @@ public class TestComponent {
         email.validate();
 
         Component length = new TextComponent("21130207@st.hcmuaf.edu.vn");
-        length.setComponentTypes(new MinMaxLengthValidation(100,700));
+        length.setComponentTypes(new MinMaxLengthValidation(10,700));
         length.validate();
 
     }
