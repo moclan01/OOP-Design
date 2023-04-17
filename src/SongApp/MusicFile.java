@@ -1,12 +1,14 @@
 package SongApp;
 
+import java.util.List;
+
 public class MusicFile {
     private Song song;
     private String singer;
     private String pathMusicFile;
-    private String accessTimes;
+    private long accessTimes;
 
-    public MusicFile(Song song, String singer, String pathMusicFile, String accessTimes) {
+    public MusicFile(Song song, String singer, String pathMusicFile, long accessTimes) {
         this.song = song;
         this.singer = singer;
         this.pathMusicFile = pathMusicFile;
@@ -37,12 +39,17 @@ public class MusicFile {
         this.pathMusicFile = pathMusicFile;
     }
 
-    public String getAccessTimes() {
+    public long getAccessTimes() {
         return accessTimes;
     }
 
-    public void setAccessTimes(String accessTimes) {
+    public void setAccessTimes(long accessTimes) {
         this.accessTimes = accessTimes;
+    }
+
+    @Override
+    public String toString() {
+        return song.getTitle() + ", " + song.getAuthor() + ", " + accessTimes;
     }
 
     public boolean hasName(String name){

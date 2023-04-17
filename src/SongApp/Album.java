@@ -9,7 +9,11 @@ public class Album {
     private String publisher;
     private List<MusicFile> musicFiles;
 
-    public Album(String title, String publishedDate, String publisher, List<MusicFile> musicFiles) {
+    public Album(){
+        this.musicFiles = new ArrayList<MusicFile>();
+    }
+
+    public Album(String title, String publishedDate, String publisher) {
         this.title = title;
         this.publishedDate = publishedDate;
         this.publisher = publisher;
