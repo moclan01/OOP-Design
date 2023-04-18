@@ -1,4 +1,4 @@
-
+package CurrencyConvert;
 
 public class USDCurrencyUnit extends CurrencyUnit {
     public USDCurrencyUnit() {

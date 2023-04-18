@@ -1,4 +1,4 @@
-
+package CurrencyConvert;
 public class VNDCurrencyUnit extends CurrencyUnit {
     public VNDCurrencyUnit() {
         this.symbol = "VND";

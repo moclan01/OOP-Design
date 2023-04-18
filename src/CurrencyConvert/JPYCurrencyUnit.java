@@ -1,4 +1,4 @@
-
+package CurrencyConvert;
 
 public class JPYCurrencyUnit extends CurrencyUnit {
     public JPYCurrencyUnit() {

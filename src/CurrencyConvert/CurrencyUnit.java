@@ -1,4 +1,4 @@
-
+package CurrencyConvert;
 
 public abstract class CurrencyUnit {
     protected String symbol;

@@ -1,4 +1,4 @@
-
+package CurrencyConvert;
 
 public class CurrencyMeasure {
     private double value;

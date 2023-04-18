@@ -1,4 +1,4 @@
-
+package CurrencyConvert;
 
 public class GBPCurrencyUnit extends CurrencyUnit {
     public GBPCurrencyUnit() {
